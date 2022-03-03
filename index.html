@@ -1,0 +1,1409 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="seung_yun">
+    <meta name="description" content="무인양품">
+    <meta name="keywords" content="무인양품,무지, MUJI">
+    <title>MUJI 무지 - 온라인 스토어</title>
+    <!-- 파비콘 -->
+    <link rel="shortcut icon" href="img/favicon.svg">
+    <!-- CSS 모음 -->
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/common.css">
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="css/swiper-bundle.min.css">
+    <!-- 웹폰트 -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;700&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <!-- 모바일 화면 -->
+    <div class="mobile-wrap">
+        <!-- 로딩 페이지 -->
+        <section class="loading-page">
+            <img class="loading-logo" src="img/loading-logo.svg" alt="">
+        </section>
+        <div class="status_bar">
+            <img src="img/status_bar-black.svg" alt="">
+        </div>
+        <!-- // 로딩 페이지 -->
+        <!-- gnb -->
+        <div class="gnb-bg">
+            <div class="gnb-wrap">
+                <article class="mobile-bnr">
+                    <a href="#" class="mobile-bnr-link">
+                        <img class="icon-app" src="img/icon-app.svg" alt="무지 앱">
+                        <div class="bnr-txt-wrap">
+                            <h4 class="bnr-tit">
+                                앱에서 더 쉽고 간편하게 쇼핑하세요!
+                            </h4>
+                            <p class="bnr-txt">
+                                MUJI 모바일 앱으로 쇼핑하러가기
+                            </p>
+                        </div>
+                    </a>
+                </article>
+                <div class="login-wrap">
+                    <a href="#" class="join-link jl-btn">
+                        회원가입
+                    </a>
+                    <a href="login-page.html" class="login-link jl-btn">
+                        로그인
+                    </a>
+                </div>
+                <!-- 퀵메뉴 -->
+                <div class="q-menu-wrap">
+                    <div class="basket-wrap menu-box">
+                        <a href="" class="q-menu-link">
+                            <img class="q-menu-icon" src="img/icon_basket_gray.svg" alt="">
+                            <p class="q-menu-tit">
+                                장바구니
+                            </p>
+                        </a>
+                    </div>
+                    <div class="basket-wrap menu-box">
+                        <a href="" class="q-menu-link">
+                            <img class="q-menu-icon" src="img/icon-list.svg" alt="">
+                            <p class="q-menu-tit">
+                                주문조회
+                            </p>
+                        </a>
+                    </div>
+                    <div class="basket-wrap menu-box">
+                        <a href="" class="q-menu-link">
+                            <img class="q-menu-icon" src="img/icon_user.svg" alt="">
+                            <p class="q-menu-tit">
+                                마이페이지
+                            </p>
+                        </a>
+                    </div>
+                </div>
+                <!-- // 퀵메뉴 -->
+                <!-- 무지 카테고리 -->
+                <h4 class="cate-tit">
+                    MUJI 카테고리
+                </h4>
+                <ul class="muji-cate">
+                    <li class="cate-list">
+                        <a href="#" class="cate-link">
+                            할인 매장
+                            <span class="icon-arrow_down">
+                                <img src="img/icon-arrow_down.svg" alt="" class="icon-arrow_down">
+                            </span>
+                        </a>
+                        <ul class="lnb">
+                            <li class="lnb-list">
+                                <a href="#" class="lnb-link">
+                                    <span class="icon-list_mark">
+                                        <img src="img/icon-list_mark.svg" alt="">
+                                    </span>
+                                    가격 인하
+                                </a>
+                            </li>
+                            <li class="lnb-list">
+                                <a href="#" class="lnb-link">
+                                    <span class="icon-list_mark">
+                                        <img src="img/icon-list_mark.svg" alt="">
+                                    </span>
+                                    가격 한정
+                                </a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="cate-list">
+                        <a href="#" class="cate-link">
+                            아울렛
+                            <span class="icon-arrow_down">
+                                <img src="img/icon-arrow_down.svg" alt="" class="icon-arrow_down">
+                            </span>
+                        </a>
+                        <ul class="lnb">
+                            <li class="lnb-list">
+                                <a href="#" class="lnb-link">
+                                    <span class="icon-list_mark">
+                                        <img src="img/icon-list_mark.svg" alt="">
+                                    </span>
+                                    의복잡화 아울렛(new)
+                                </a>
+                            </li>
+                            <li class="lnb-list">
+                                <a href="#" class="lnb-link">
+                                    <span class="icon-list_mark">
+                                        <img src="img/icon-list_mark.svg" alt="">
+                                    </span>
+                                    생활잡화 아울렛
+                                </a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="cate-list">
+                        <a href="#" class="cate-link">
+                            의료잡화
+                            <span class="icon-arrow_down">
+                                <img src="img/icon-arrow_down.svg" alt="" class="icon-arrow_down">
+                            </span>
+                        </a>
+                        <ul class="lnb">
+                            <li class="lnb-list">
+                                <a href="#" class="lnb-link">
+                                    <span class="icon-list_mark">
+                                        <img src="img/icon-list_mark.svg" alt="">
+                                    </span>
+                                    MUJI LABO
+                                </a>
+                            </li>
+                            <li class="lnb-list">
+                                <a href="#" class="lnb-link">
+                                    <span class="icon-list_mark">
+                                        <img src="img/icon-list_mark.svg" alt="">
+                                    </span>
+                                    여성복
+                                </a>
+                            </li>
+                            <li class="lnb-list">
+                                <a href="#" class="lnb-link">
+                                    <span class="icon-list_mark">
+                                        <img src="img/icon-list_mark.svg" alt="">
+                                    </span>
+                                    남성복
+                                </a>
+                            </li>
+                            <li class="lnb-list">
+                                <a href="#" class="lnb-link">
+                                    <span class="icon-list_mark">
+                                        <img src="img/icon-list_mark.svg" alt="">
+                                    </span>
+                                    아동복﹒마터니티
+                                </a>
+                            </li>
+                            <li class="lnb-list">
+                                <a href="#" class="lnb-link">
+                                    <span class="icon-list_mark">
+                                        <img src="img/icon-list_mark.svg" alt="">
+                                    </span>
+                                    이너웨어
+                                </a>
+                            </li>
+                            <li class="lnb-list">
+                                <a href="#" class="lnb-link">
+                                    <span class="icon-list_mark">
+                                        <img src="img/icon-list_mark.svg" alt="">
+                                    </span>
+                                    가방﹒신발
+                                </a>
+                            </li>
+                            <li class="lnb-list">
+                                <a href="#" class="lnb-link">
+                                    <span class="icon-list_mark">
+                                        <img src="img/icon-list_mark.svg" alt="">
+                                    </span>
+                                    액세서리﹒양말﹒우산
+                                </a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="cate-list">
+                        <a href="#" class="cate-link">
+                            생활잡화
+                            <span class="icon-arrow_down">
+                                <img src="img/icon-arrow_down.svg" alt="" class="icon-arrow_down">
+                            </span>
+                        </a>
+                        <ul class="lnb">
+                            <li class="lnb-list">
+                                <a href="#" class="lnb-link">
+                                    <span class="icon-list_mark">
+                                        <img src="img/icon-list_mark.svg" alt="">
+                                    </span>
+                                    패브릭
+                                </a>
+                            </li>
+                            <li class="lnb-list">
+                                <a href="#" class="lnb-link">
+                                    <span class="icon-list_mark">
+                                        <img src="img/icon-list_mark.svg" alt="">
+                                    </span>
+                                    가구﹒인테리어
+                                </a>
+                            </li>
+                            <li class="lnb-list">
+                                <a href="#" class="lnb-link">
+                                    <span class="icon-list_mark">
+                                        <img src="img/icon-list_mark.svg" alt="">
+                                    </span>
+                                    주방﹒생활용품
+                                </a>
+                            </li>
+                            <li class="lnb-list">
+                                <a href="#" class="lnb-link">
+                                    <span class="icon-list_mark">
+                                        <img src="img/icon-list_mark.svg" alt="">
+                                    </span>
+                                    헬스&뷰티﹒아로마
+                                </a>
+                            </li>
+                            <li class="lnb-list">
+                                <a href="#" class="lnb-link">
+                                    <span class="icon-list_mark">
+                                        <img src="img/icon-list_mark.svg" alt="">
+                                    </span>
+                                    화장품
+                                </a>
+                            </li>
+                            <li class="lnb-list">
+                                <a href="#" class="lnb-link">
+                                    <span class="icon-list_mark">
+                                        <img src="img/icon-list_mark.svg" alt="">
+                                    </span>
+                                    전자제품﹒기프트
+                                </a>
+                            </li>
+                            <li class="lnb-list">
+                                <a href="#" class="lnb-link">
+                                    <span class="icon-list_mark">
+                                        <img src="img/icon-list_mark.svg" alt="">
+                                    </span>
+                                    문구
+                                </a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="cate-list">
+                        <a href="#" class="cate-link">
+                            음료 및 식품
+                            <span class="icon-arrow_down">
+                                <img src="img/icon-arrow_down.svg" alt="" class="icon-arrow_down">
+                            </span>
+                        </a>
+                        <ul class="lnb">
+                            <li class="lnb-list">
+                                <a href="#" class="lnb-link">
+                                    <span class="icon-list_mark">
+                                        <img src="img/icon-list_mark.svg" alt="">
+                                    </span>
+                                    스낵﹒디저트
+                                </a>
+                            </li>
+                            <li class="lnb-list">
+                                <a href="#" class="lnb-link">
+                                    <span class="icon-list_mark">
+                                        <img src="img/icon-list_mark.svg" alt="">
+                                    </span>
+                                    음료
+                                </a>
+                            </li>
+                            <li class="lnb-list">
+                                <a href="#" class="lnb-link">
+                                    <span class="icon-list_mark">
+                                        <img src="img/icon-list_mark.svg" alt="">
+                                    </span>
+                                    소스
+                                </a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="cate-list">
+                        <a href="#" class="cate-link">
+                            이벤트
+                        </a>
+                    </li>
+                    <li class="cate-list">
+                        <a href="#" class="cate-link">
+                            고객센터
+                            <span class="icon-arrow_down">
+                                <img src="img/icon-arrow_down.svg" alt="" class="icon-arrow_down">
+                            </span>
+                        </a>
+                        <ul class="lnb">
+                            <li class="lnb-list">
+                                <a href="#" class="lnb-link">
+                                    <span class="icon-list_mark">
+                                        <img src="img/icon-list_mark.svg" alt="">
+                                    </span>
+                                    자주 묻는 Q&A
+                                </a>
+                            </li>
+                            <li class="lnb-list">
+                                <a href="#" class="lnb-link">
+                                    <span class="icon-list_mark">
+                                        <img src="img/icon-list_mark.svg" alt="">
+                                    </span>
+                                    온라인 고객센터
+                                </a>
+                            </li>
+                        </ul>
+                    </li>
+                </ul>
+                <!-- // 무지 카테고리 -->
+                <!-- sns -->
+                <div class="sns-wrap">
+                    <a href="#" class="icon-sns">
+                        <img src="img/icon-insta.svg" alt="">
+                    </a>
+                    <a href="#" class="icon-sns">
+                        <img src="img/icon-facebook.svg" alt="">
+                    </a>
+                    <a href="#" class="icon-sns">
+                        <img src="img/icon-youtube.svg" alt="">
+                    </a>
+                </div>
+                <!-- // sns -->
+            </div>
+        </div>
+        <script>
+        </script>
+        <!-- // gnb -->
+        <!-- 헤더 -->
+        <header class="header">
+            <h1 class="main_logo">
+                <a href="#">
+                    <img src="img/logo.svg" alt="무인양품 로고">
+                </a>
+            </h1>
+            <div class="header-r">
+                <div class="icon-basket">
+                    <a href="#">
+                        <img src="img/icon-hdr-basket.svg" alt="">
+                    </a>
+                </div>
+                <a href="#" class="menu-link">
+                    <div class="menu-bar-wrap">
+                        <span class="menu-bar menu-bar1"></span>
+                        <span class="menu-bar menu-bar2"></span>
+                        <span class="menu-bar menu-bar3"></span>
+                    </div>
+                </a>
+                <script>
+                    // 메뉴 바 클릭시 엑스모양으로 변환
+                    const menu = document.querySelector('.menu-link');
+                    menu.addEventListener('click', () => {
+                        const menuBar1 = document.querySelector('.menu-bar1');
+                        const menuBar2 = document.querySelector('.menu-bar2');
+                        const menuBar3 = document.querySelector('.menu-bar3');
+                        menuBar1.classList.toggle('menu-bar1-click');
+                        menuBar2.classList.toggle('menu-bar2-click');
+                        menuBar3.classList.toggle('menu-bar3-click');
+                        // Gnb show
+                        const gnbBg = document.querySelector('.gnb-bg');
+                        gnbBg.classList.toggle('gnb-bg-show');
+                        const gnbWrap = document.querySelector('.gnb-wrap')
+                        gnbWrap.classList.toggle('gnb-wrap-show');
+                        const mobileWrap = document.querySelector('.mobile-wrap');
+                        mobileWrap.classList.toggle('mobile-wrap-show');
+                    })
+                    // 메뉴 클릭시 생성되는 gnb
+                    menu.addEventListener('click', () => {
+
+                    })
+                </script>
+            </div>
+        </header>
+        <!-- // 헤더 -->
+        <!-- 검색 -->
+        <section class="search-wrap">
+            <button class="icon-search">
+                <img src="img/icon-search.svg" alt="검색 아이콘">
+            </button>
+            <input class="search" type="text" placeholder="무인양품 통합검색">
+        </section>
+        <!-- // 검색 -->
+        <!-- 메인 컨텐츠 01 -->
+        <main class="con1-main swiper-container con1_swiper">
+            <div class="swiper-wrapper">
+                <div class="con1-main_slide swiper-slide">
+                    <a href="#">
+                        <img src="img/con1-slide01.svg" alt="">
+                    </a>
+                </div>
+                <div class="con1-main_slide swiper-slide">
+                    <a href="#">
+                        <img src="img/con1-slide02.svg" alt="">
+                    </a>
+                </div>
+                <div class="con1-main_slide swiper-slide">
+                    <a href="#">
+                        <img src="img/con1-slide03.svg" alt="">
+                    </a>
+                </div>
+                <div class="con1-main_slide swiper-slide">
+                    <a href="#">
+                        <img src="img/con1-slide04.svg" alt="">
+                    </a>
+                </div>
+            </div>
+            <div class="con1-pagination"></div>
+        </main>
+        <!-- // 컨텐츠 01 -->
+        <!-- 컨텐츠 02 -->
+        <section class="con2-wrap">
+            <h2 class="ir_so">
+                빠른 카테고리
+            </h2>
+            <h3 class="con_tit">
+                빠른 카테고리
+            </h3>
+            <div class="con2-container swiper-container con2-swiper">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <article class="con2-art">
+                            <a href="#" class="con2-art_link">
+                                <img class="con2-art_img" src="img/con2-img1.svg" alt="">
+                                <div class="con2-art_txt">
+                                    <h4 class="con2-art_tit">
+                                        여성의류
+                                    </h4>
+                                    <p class="con2-art_desc">
+                                        여성복, 속옷, 잡화, 신발
+                                    </p>
+                                </div>
+                            </a>
+                        </article>
+                        <article class="con2-art">
+                            <a href="#" class="con2-art_link">
+                                <img class="con2-art_img" src="img/con2-img2.svg" alt="">
+                                <div class="con2-art_txt">
+                                    <h4 class="con2-art_tit">
+                                        남성의류
+                                    </h4>
+                                    <p class="con2-art_desc">
+                                        남성복, 속옷, 잡화, 신발
+                                    </p>
+                                </div>
+                            </a>
+                        </article>
+                    </div>
+                    <div class="swiper-slide">
+                        <article class="con2-art">
+                            <a href="#" class="con2-art_link">
+                                <img class="con2-art_img" src="img/con2-img3.svg" alt="">
+                                <div class="con2-art_txt">
+                                    <h4 class="con2-art_tit">
+                                        키즈의류
+                                    </h4>
+                                    <p class="con2-art_desc">
+                                        유아동복, 속옷, 잡화, 신발
+                                    </p>
+                                </div>
+                            </a>
+                        </article>
+                        <article class="con2-art">
+                            <a href="#" class="con2-art_link">
+                                <img class="con2-art_img" src="img/con2-img4.svg" alt="">
+                                <div class="con2-art_txt">
+                                    <h4 class="con2-art_tit">
+                                        가방﹒패션 잡화
+                                    </h4>
+                                    <p class="con2-art_desc">
+                                        가방, 우산, 손수건 등
+                                    </p>
+                                </div>
+                            </a>
+                        </article>
+                    </div>
+                    <div class="swiper-slide">
+                        <article class="con2-art">
+                            <a href="#" class="con2-art_link">
+                                <img class="con2-art_img" src="img/con2-img5.svg" alt="">
+                                <div class="con2-art_txt">
+                                    <h4 class="con2-art_tit">
+                                        식품﹒음료
+                                    </h4>
+                                    <p class="con2-art_desc">
+                                        즉석식품, 차, 과자, 디저트 류
+                                    </p>
+                                </div>
+                            </a>
+                        </article>
+                        <article class="con2-art">
+                            <a href="#" class="con2-art_link">
+                                <img class="con2-art_img" src="img/con2-img6.svg" alt="">
+                                <div class="con2-art_txt">
+                                    <h4 class="con2-art_tit">
+                                        가구﹒인테리어
+                                    </h4>
+                                    <p class="con2-art_desc">
+                                        가구, 침대 및 침구류 등
+                                    </p>
+                                </div>
+                            </a>
+                        </article>
+                    </div>
+                    <div class="swiper-slide">
+                        <article class="con2-art">
+                            <a href="#" class="con2-art_link">
+                                <img class="con2-art_img" src="img/con2-img7.svg" alt="">
+                                <div class="con2-art_txt">
+                                    <h4 class="con2-art_tit">
+                                        생활용품 잡화
+                                    </h4>
+                                    <p class="con2-art_desc">
+                                        청소용품, 서류, 문구, 화장품
+                                    </p>
+                                </div>
+                            </a>
+                        </article>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- // 컨텐츠 02 -->
+        <!-- 컨텐츠 03 -->
+        <section class="con3-wrap">
+            <h2 class="ir_so">
+                새로운 양품 소개
+            </h2>
+            <div class="con-tit_wrap">
+                <h3 class="con_tit">
+                    새로운 양품 소개
+                </h3>
+                <a class="con_tit_link" href="#">
+                    더보기
+                </a>
+            </div>
+            <article class="con3-main_art">
+                <a href="#">
+                    <img src="img/con3-main_img.svg" alt="여름철, 끈적이는 바닥을 피해서">
+                </a>
+            </article>
+            <h4 class="con3-art_tit">
+                이 제품은 이렇습니다.
+            </h4>
+            <div class="con3-art-wrap">
+                <article class="con3-art">
+                    <a class="con3-art-link" href="#">
+                        <img class="con3-art-img" src="img/con3-img2.svg" alt="">
+                        <p class="con3-art-desc">
+                            자연을 닮아 아름답고 다양한 컬러
+                        </p>
+                    </a>
+                </article>
+                <article class="con3-art">
+                    <a class="con3-art-link" href="#">
+                        <img class="con3-art-img" src="img/con3-img3.svg" alt="">
+                        <p class="con3-art-desc">
+                            가볍고 신고 벗기 편한 홈 슈즈
+                        </p>
+                    </a>
+                </article>
+                <article class="con3-art">
+                    <a class="con3-art-link" href="#">
+                        <img class="con3-art-img" src="img/con3-img4.svg" alt="">
+                        <p class="con3-art-desc">
+                            여름철에 적합한 쾌적하고 드라이한 소재
+                        </p>
+                    </a>
+                </article>
+            </div>
+        </section>
+        <!-- // 컨텐츠 03 -->
+        <!-- 컨텐츠 04 -->
+        <section class="con4-wrap">
+            <h2 class="ir_so">
+                새로운 양품 소개
+            </h2>
+            <div class="con-tit_wrap">
+                <h3 class="con_tit">
+                    더운 여름, 현명하게 보내기
+                </h3>
+                <a class="con_tit_link" href="#">
+                    더보기
+                </a>
+            </div>
+            <div class="con4-container swiper-container con4-swiper">
+                <div class="con4-swiper-wrapper swiper-wrapper">
+                    <article class="con4-art swiper-slide">
+                        <a class="con4-art-link" href="#">
+                            <img class="con4-art-img" src="img/con4-img1.svg" alt="서큘레이터 사진">
+                            <h4 class="con4-art-tit">
+                                강력하고 시원해요
+                            </h4>
+                            <p class="con4-art-desc">
+                                다양한 타입의 써큘레이터
+                            </p>
+                        </a>
+                    </article>
+                    <article class="con4-art swiper-slide">
+                        <a class="con4-art-link" href="#">
+                            <img class="con4-art-img" src="img/con4-img2.svg" alt="서큘레이터 사진">
+                            <h4 class="con4-art-tit">
+                                따가운 햇살 가리기
+                            </h4>
+                            <p class="con4-art-desc">
+                                UV 차단은 필수입니다!
+                            </p>
+                        </a>
+                    </article>
+                    <article class="con4-art swiper-slide">
+                        <a class="con4-art-link" href="#">
+                            <img class="con4-art-img" src="img/con4-img3.svg" alt="서큘레이터 사진">
+                            <h4 class="con4-art-tit">
+                                수분 보충이 중요해요
+                            </h4>
+                            <p class="con4-art-desc">
+                                다양한 타입의 써큘레이터
+                            </p>
+                        </a>
+                    </article>
+                    <article class="con4-art swiper-slide">
+                        <a class="con4-art-link" href="#">
+                            <img class="con4-art-img" src="img/con4-img4.svg" alt="서큘레이터 사진">
+                            <h4 class="con4-art-tit">
+                                체감 온도 내리기
+                            </h4>
+                            <p class="con4-art-desc">
+                                드라이한 소재의 홈웨어
+                            </p>
+                        </a>
+                    </article>
+                </div>
+            </div>
+        </section>
+        <!-- // 컨텐츠 04 -->
+        <!-- 컨텐츠 05 -->
+        <section class="con5-wrap">
+            <div class="con-tit_wrap">
+                <h3 class="con_tit">
+                    <span class="txt-red">MUJI</span> 베스트 양품
+                </h3>
+                <a class="con_tit_link" href="#">
+                    더보기
+                </a>
+            </div>
+            <div class="con5-container swiper-container con5-swiper">
+                <div class="swiper-wrapper">
+                    <div class="con5-art-wrap swiper-slide">
+                        <article class="con5-art">
+                            <a class="con5-art-link" href="#">
+                                <span class="con5-art-rank">
+                                    1
+                                </span>
+                                <img class="con5-art-img" src="img/con5-img1.svg" alt="서큘레이터 사진">
+                                <div class="con5-art-txt-wrap">
+                                    <h4 class="con5-art-tit">
+                                        서큘레이터 저소음 팬 풍량 타입 - 화이트 컬러
+                                    </h4>
+                                    <p class="con5-art-price">
+                                        61,000
+                                        <span class="won">원</span>
+                                    </p>
+                                </div>
+                            </a>
+                        </article>
+                        <article class="con5-art">
+                            <a class="con5-art-link" href="#">
+                                <span class="con5-art-rank">
+                                    3
+                                </span>
+                                <img class="con5-art-img" src="img/con5-img2.svg" alt="서큘레이터 사진">
+                                <div class="con5-art-txt-wrap">
+                                    <h4 class="con5-art-tit">
+                                        친환경 가루형 주방용 세제 + 리필 용기 2종
+                                    </h4>
+                                    <p class="con5-art-price">
+                                        12,300
+                                        <span class="won">원</span>
+                                    </p>
+                                </div>
+                            </a>
+                        </article>
+                    </div>
+                    <div class="con5-art-wrap swiper-slide">
+                        <article class="con5-art">
+                            <a class="con5-art-link" href="#">
+                                <span class="con5-art-rank">
+                                    2
+                                </span>
+                                <img class="con5-art-img" src="img/con5-img3.svg" alt="서큘레이터 사진">
+                                <div class="con5-art-txt-wrap">
+                                    <h4 class="con5-art-tit">
+                                        유기농 레몬 히비스커스 티 리필 500ml
+                                    </h4>
+                                    <p class="con5-art-price">
+                                        4,200
+                                        <span class="won">원</span>
+                                    </p>
+                                </div>
+                            </a>
+                        </article>
+                        <article class="con5-art">
+                            <a class="con5-art-link" href="#">
+                                <img class="con5-art-img" src="img/con5-img4.svg" alt="서큘레이터 사진">
+                                <div class="con5-art-txt-wrap">
+                                    <h4 class="con5-art-tit">
+                                        알루미늄 실내 건조대 73 X 63 X 150.5cm
+                                    </h4>
+                                    <p class="con5-art-price">
+                                        32,600
+                                        <span class="won">원</span>
+                                    </p>
+                                </div>
+                            </a>
+                        </article>
+                    </div>
+                    <div class="con5-art-wrap swiper-slide">
+                        <article class="con5-art">
+                            <a class="con5-art-link" href="#">
+                                <img class="con5-art-img" src="img/con5-img5.svg" alt="서큘레이터 사진">
+                                <div class="con5-art-txt-wrap">
+                                    <h4 class="con5-art-tit">
+                                        소재를 살린 치킨 곱배기 카레 300g (1 인분)
+                                    </h4>
+                                    <p class="con5-art-price">
+                                        3,900
+                                        <span class="won">원</span>
+                                    </p>
+                                </div>
+                            </a>
+                        </article>
+                        <article class="con5-art">
+                            <a class="con5-art-link" href="#">
+                                <img class="con5-art-img" src="img/con5-img6.svg" alt="서큘레이터 사진">
+                                <div class="con5-art-txt-wrap">
+                                    <h4 class="con5-art-tit">
+                                        바랜 강 연 슬리브리스 원피스 여성 S 미디엄
+                                    </h4>
+                                    <p class="con5-art-price">
+                                        45,900
+                                        <span class="won">원</span>
+                                    </p>
+                                </div>
+                            </a>
+                        </article>
+                    </div>
+                    <div class="con5-art-wrap swiper-slide">
+                        <article class="con5-art">
+                            <a class="con5-art-link" href="#">
+                                <img class="con5-art-img" src="img/con5-img7.svg" alt="서큘레이터 사진">
+                                <div class="con5-art-txt-wrap">
+                                    <h4 class="con5-art-tit">
+                                        자몽 그린 티 22g 2.2g (10 봉지)
+                                    </h4>
+                                    <p class="con5-art-price">
+                                        5,100
+                                        <span class="won">원</span>
+                                    </p>
+                                </div>
+                            </a>
+                        </article>
+                        <article class="con5-art">
+                            <a class="con5-art-link" href="#">
+                                <img class="con5-art-img" src="img/con5-img8.svg" alt="서큘레이터 사진">
+                                <div class="con5-art-txt-wrap">
+                                    <h4 class="con5-art-tit">
+                                        투명 가벼운 특수 유리 잔 200ml
+                                    </h4>
+                                    <p class="con5-art-price">
+                                        2,300
+                                        <span class="won">원</span>
+                                    </p>
+                                </div>
+                            </a>
+                        </article>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- // 컨텐츠 05 -->
+        <!-- 컨텐츠 06 -->
+        <section class="con6-wrap">
+            <div class="con-tit_wrap">
+                <h3 class="con_tit">
+                    <span class="txt-red">MUJI</span> 인기 키워드
+                </h3>
+                <a class="con_tit_link" href="#">
+                    더보기
+                </a>
+            </div>
+            <div class="con6-tab-menu-wrap">
+                <a href="#" class="con6-tab-menu con6-tab-menu_check">
+                    홈카페
+                </a>
+                <a href="#" class="con6-tab-menu">
+                    여름 인테리어
+                </a>
+                <a href="#" class="con6-tab-menu">
+                    리넨 소재
+                </a>
+            </div>
+            <div class="con6-container swiper-container con6-swiper">
+                <div class="swiper-wrapper">
+                    <div class="con6-art-wrap swiper-slide">
+                        <article class="con6-art">
+                            <a class="con6-art-link" href="#">
+                                <img class="con6-art-img" src="img/con6-img1.svg" alt="">
+                                <div class="con6-art-txt-wrap">
+                                    <h4 class="con6-art-tit">
+                                        미듐 글라스 와인잔 2P
+                                    </h4>
+                                    <p class="con6-art-desc">
+                                        투명하고 가벼운 글라스 와인잔
+                                    </p>
+                                    <p class="con6-art-price">
+                                        12,000
+                                        <span class="won">
+                                            원
+                                        </span>
+                                    </p>
+                                </div>
+                            </a>
+                        </article>
+                        <article class="con6-art">
+                            <a class="con6-art-link" href="#">
+                                <img class="con6-art-img" src="img/con6-img2.svg" alt="">
+                                <div class="con6-art-txt-wrap">
+                                    <h4 class="con6-art-tit">
+                                        민트/오렌지/레몬/애플 티 set
+                                    </h4>
+                                    <p class="con6-art-desc">
+                                        유기농 제품으로 만든 고급 제품
+                                    </p>
+                                    <p class="con6-art-price">
+                                        24,500
+                                        <span class="won">
+                                            원
+                                        </span>
+                                    </p>
+                                </div>
+                            </a>
+                        </article>
+                        <article class="con6-art">
+                            <a class="con6-art-link" href="#">
+                                <img class="con6-art-img" src="img/con6-img3.svg" alt="">
+                                <div class="con6-art-txt-wrap">
+                                    <h4 class="con6-art-tit">
+                                        브런치 그릇 & 머그 컵 </h4>
+                                    <p class="con6-art-desc">
+                                        심플하고 모던한 디자인에 상품
+                                    </p>
+                                    <p class="con6-art-price">
+                                        18,000
+                                        <span class="won">
+                                            원
+                                        </span>
+                                    </p>
+                                </div>
+                            </a>
+                        </article>
+                    </div>
+                    <div class="con6-art-wrap swiper-slide">
+                        <article class="con6-art">
+                            <a class="con6-art-link" href="#">
+                                <img class="con6-art-img" src="img/con6-img4.svg" alt="">
+                                <div class="con6-art-txt-wrap">
+                                    <h4 class="con6-art-tit">
+                                        메이플 시럽 200ml
+                                    </h4>
+                                    <p class="con6-art-desc">
+                                        집에서도 고급 카페에 느낌
+                                    </p>
+                                    <p class="con6-art-price">
+                                        16,800
+                                        <span class="won">
+                                            원
+                                        </span>
+                                    </p>
+                                </div>
+                            </a>
+                        </article>
+                        <article class="con6-art">
+                            <a class="con6-art-link" href="#">
+                                <img class="con6-art-img" src="img/con6-img6.svg" alt="">
+                                <div class="con6-art-txt-wrap">
+                                    <h4 class="con6-art-tit">
+                                        라이트 글라스 컵 4P 미듐
+                                    </h4>
+                                    <p class="con6-art-desc">
+                                        가볍고 튼튼한 특수 소재 유리
+                                    </p>
+                                    <p class="con6-art-price">
+                                        3,200
+                                        <span class="won">
+                                            원
+                                        </span>
+                                    </p>
+                                </div>
+                            </a>
+                        </article>
+                        <article class="con6-art">
+                            <a class="con6-art-link" href="#">
+                                <img class="con6-art-img" src="img/con6-img5.svg" alt="">
+                                <div class="con6-art-txt-wrap">
+                                    <h4 class="con6-art-tit">
+                                        바움쿠헨 8종 세트
+                                    </h4>
+                                    <p class="con6-art-desc">
+                                        겉바속촉~ 디저트 느낌
+                                    </p>
+                                    <p class="con6-art-price">
+                                        10,900
+                                        <span class="won">
+                                            원
+                                        </span>
+                                    </p>
+                                </div>
+                            </a>
+                        </article>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- // 컨텐츠 06 -->
+        <!-- 컨텐츠 07 -->
+        <section class="con7-wrap">
+            <div class="con-tit_wrap">
+                <h3 class="con_tit">
+                    <span class="txt-red">MUJI</span>
+                    프로모션 공유해요.
+                </h3>
+                <a class="con_tit_link" href="#">
+                    더보기
+                </a>
+            </div>
+            <div class="con7-container swiper-container con7-swiper">
+                <div class="swiper-wrapper">
+                    <article class="con7-art swiper-slide">
+                        <a class="con7-art-link" href="#">
+                            <img class="con7-art-img" src="img/con7-img1.svg" alt="">
+                            <div class="con7-art-txt-box">
+                                <h4 class="con7-art-tit">
+                                    지속가능한 생활에 관심갖기
+                                </h4>
+                                <p class="con7-art-desc">
+                                    MUJI는 일상에서 실천할 수 있는 환경…
+                                </p>
+                                <div class="user-wrap">
+                                    <span class="user-img user-img1"></span>
+                                    <span class="user-img user-img2"></span>
+                                    <span class="user-img user-img3"></span>
+                                </div>
+                            </div>
+                        </a>
+                    </article>
+                    <article class="con7-art swiper-slide">
+                        <a class="con7-art-link" href="#">
+                            <img class="con7-art-img" src="img/con7-img2.svg" alt="">
+                            <div class="con7-art-txt-box">
+                                <h4 class="con7-art-tit">
+                                    달콤한 MUJI 홈카페 이벤트
+                                </h4>
+                                <p class="con7-art-desc">
+                                    코로나 일상 속에서 MUJI 홈카페와 … </p>
+                                <div class="user-wrap">
+                                    <span class="user-img user-img4"></span>
+                                    <span class="user-img user-img5"></span>
+                                    <span class="user-img user-img6"></span>
+                                </div>
+                            </div>
+                        </a>
+                    </article>
+                    <article class="con7-art swiper-slide">
+                        <a class="con7-art-link" href="#">
+                            <img class="con7-art-img" src="img/con7-img3.svg" alt="">
+                            <div class="con7-art-txt-box">
+                                <h4 class="con7-art-tit">
+                                    좋은 숙면은 보약입니다.
+                                </h4>
+                                <p class="con7-art-desc">
+                                    숙면은 인간의 건강과 직결된 아주 중…
+                                </p>
+                                <div class="user-wrap">
+                                    <span class="user-img user-img7"></span>
+                                    <span class="user-img user-img8"></span>
+                                    <span class="user-img user-img9"></span>
+                                </div>
+                            </div>
+                        </a>
+                    </article>
+                </div>
+            </div>
+        </section>
+        <!-- // 컨텐츠 07 -->
+        <!-- 컨텐츠 08 -->
+        <section class="con8-wrap">
+            <div class="con-tit_wrap">
+                <h3 class="con_tit">
+                    특별한 기획
+                </h3>
+                <a class="con_tit_link" href="#">
+                    더보기
+                </a>
+            </div>
+            <div class="con8-container swiper-container con8-swiper">
+                <div class="swiper-wrapper">
+                    <div class="con8-slide swiper-slide">
+                        <article class="con8-art">
+                            <a class="con8-art-link" href="#">
+                                <img class="con8-art-img" src="img/con8-img1.svg" alt="친환경 목재 놀잇감 사진">
+                                <div class="con8-art-txt-box">
+                                    <h4 class="con8-art-tit">
+                                        친환경 놀잇감 DIY
+                                    </h4>
+                                    <p class="con8-art-desc">
+                                        인공적인 장난감이 아닌 자연소재로 직접 만드는 우드 블록 장난감
+                                    </p>
+                                </div>
+                            </a>
+                        </article>
+                        <article class="con8-art">
+                            <a class="con8-art-link" href="#">
+                                <img class="con8-art-img" src="img/con8-img2.svg" alt="친환경 목재 놀잇감 사진">
+                                <div class="con8-art-txt-box">
+                                    <h4 class="con8-art-tit">
+                                        MUJI의 리사이클링
+                                    </h4>
+                                    <p class="con8-art-desc">
+                                        MUJI는 지속가능한 소비를 고객님들과 함께 합니다.
+                                    </p>
+                                </div>
+                            </a>
+                        </article>
+                        <article class="con8-art">
+                            <a class="con8-art-link" href="#">
+                                <img class="con8-art-img" src="img/con8-img3.svg" alt="친환경 목재 놀잇감 사진">
+                                <div class="con8-art-txt-box">
+                                    <h4 class="con8-art-tit">
+                                        탁상 위, 작은 식물원
+                                    </h4>
+                                    <p class="con8-art-desc">
+                                        초록색의 식물을 보며 힐링하는 시간을 가져보세요. 나만의 귀여운 모스볼
+                                    </p>
+                                </div>
+                            </a>
+                        </article>
+                    </div>
+                    <div class="con8-slide swiper-slide">
+                        <article class="con8-art">
+                            <a class="con8-art-link" href="#">
+                                <img class="con8-art-img" src="img/con8-img4.svg" alt="친환경 목재 놀잇감 사진">
+                                <div class="con8-art-txt-box">
+                                    <h4 class="con8-art-tit">
+                                        생활 잡화 특집
+                                    </h4>
+                                    <p class="con8-art-desc">
+                                        별 거 아닌 것 같아도, 사용하면 삶의 질이 올라가는 제품들 모음입니다.
+                                    </p>
+                                </div>
+                            </a>
+                        </article>
+                        <article class="con8-art">
+                            <a class="con8-art-link" href="#">
+                                <img class="con8-art-img" src="img/con8-img5.svg" alt="친환경 목재 놀잇감 사진">
+                                <div class="con8-art-txt-box">
+                                    <h4 class="con8-art-tit">
+                                        쾌적한 촉감, 리넨 의류
+                                    </h4>
+                                    <p class="con8-art-desc">
+                                        자연이 준 선물, 좋은 마만 선별했어요. 여름철 쾌적한 촉감을 경험하세요.
+                                    </p>
+                                </div>
+                            </a>
+                        </article>
+                        <article class="con8-art">
+                            <a class="con8-art-link" href="#">
+                                <img class="con8-art-img" src="img/con8-img6.svg" alt="친환경 목재 놀잇감 사진">
+                                <div class="con8-art-txt-box">
+                                    <h4 class="con8-art-tit">
+                                        청량감, 여름 침구류
+                                    </h4>
+                                    <p class="con8-art-desc">
+                                        통품감이 좋은 크레이프 직물로 만들어졌어요. 깨끗한 소재로 피부자극 제로
+                                    </p>
+                                </div>
+                            </a>
+                        </article>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- // 컨텐츠 08 -->
+        <!-- 컨텐츠 09 -->
+        <section class="con9-wrap">
+            <h3 class="con_tit">
+                공지사항
+            </h3>
+            <div class="con9-container swiper-container con9-swiper">
+                <div class="swiper-wrapper">
+                    <div class="con9-slide swiper-slide">
+                        <div class="con9-box-top">
+                            <h3 class="con9-box-tit">
+                                <span class="txt-red">MUJI</span> 중요한 소식
+                            </h3>
+                            <a class="con9-more-link" href="#">
+                                <img src="img/icon-plus.svg" alt="">
+                            </a>
+                        </div>
+                        <article class="con9-art">
+                            <a class="con9-art-link" href="#">
+                                <h4 class="con9-art-tit">
+                                    “땅콩” 원산지에 대한 표시 미비 입장문
+                                </h4>
+                                <p class="con9-art-txt">
+                                    평소에는 무인 양품을 사랑해 주셔 정말로 감사합니다.
+                                    당사가 신뢰할 수 있는 중국 농장에서 수입하는 과정에서 발생한
+                                    불미스러운 ...
+                                </p>
+                                <span class="con9-art-date">
+                                    2021.07.21
+                                </span>
+                            </a>
+                        </article>
+                        <article class="con9-art">
+                            <a class="con9-art-link" href="#">
+                                <h4 class="con9-art-tit">
+                                    참치 뱃살 고기 육수의 표기와 차이점에 대한…
+                                </h4>
+                                <p class="con9-art-txt">
+                                    고객은 큰 불편을 끼쳐 드려 죄송합니다 것을 진심으로 사과드립니다. 앞으로 더욱 품질 관리를 철저히하고…
+                                </p>
+                                <span class="con9-art-date">
+                                    2021.06.02
+                                </span>
+                            </a>
+                        </article>
+                    </div>
+                    <div class="con9-slide swiper-slide">
+                        <div class="con9-box-top">
+                            <h3 class="con9-box-tit">
+                                <span class="txt-red">MUJI</span> 채용공고
+                            </h3>
+                            <a class="con9-more-link" href="#">
+                                <img src="img/icon-plus.svg" alt="">
+                            </a>
+                        </div>
+                        <article class="con9-art">
+                            <a class="con9-art-link" href="#">
+                                <h4 class="con9-art-tit">
+                                    인천 동춘동 [스퀘어원 - 무인양품] 정직원을…
+                                </h4>
+                                <p class="con9-art-txt">
+                                    인천 동춘 스퀘어원 무인양품점과 함께하실 정직원 분을 뽑습니다. 2021.08.28(월)까지 아래에 이메일 주소..
+                                </p>
+                                <span class="con9-art-date">
+                                    2021.07.29
+                                </span>
+                            </a>
+                        </article>
+                        <article class="con9-art">
+                            <a class="con9-art-link" href="#">
+                                <h4 class="con9-art-tit">
+                                    서울 [더 현대 - 무인양품] 새로운 오픈 매니저…
+                                </h4>
+                                <p class="con9-art-txt">
+                                    서울 [더 현대 - 무인양품]에 대한 개업 계획이 진행 중입니다. 매장 전체를 관리하고 통솔할 수 있는 경력있…
+                                </p>
+                                <span class="con9-art-date">
+                                    2021.07.18
+                                </span>
+                            </a>
+                        </article>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+        <!-- // 컨텐츠 09 -->
+        <!-- 컨텐츠 10 -->
+        <section class="con10-wrap">
+            <h3 class="con_tit">
+                <span class="txt-red">MUJI</span>를 팔로우하세요.
+            </h3>
+            <div class="con10-container swiper-container con10-swiper">
+                <div class="swiper-wrapper">
+                    <div class="con10-slide swiper-slide">
+                        <article class="con10-art">
+                            <a href="#" class="con10-art-link">
+                                <img src="img/con10-img1.svg" alt="">
+                            </a>
+                        </article>
+                        <article class="con10-art">
+                            <a href="#" class="con10-art-link">
+                                <img src="img/con10-img2.svg" alt="">
+                            </a>
+                        </article>
+                    </div>
+                    <div class="con10-slide swiper-slide">
+                        <article class="con10-art">
+                            <a href="#" class="con10-art-link">
+                                <img src="img/con10-img3.svg" alt="">
+                            </a>
+                        </article>
+                        <article class="con10-art">
+                            <a href="#" class="con10-art-link">
+                                <img src="img/con10-img4.svg" alt="">
+                            </a>
+                        </article>
+                    </div>
+                    <div class="con10-slide swiper-slide">
+                        <article class="con10-art">
+                            <a href="#" class="con10-art-link">
+                                <img src="img/con10-img7.svg" alt="">
+                            </a>
+                        </article>
+                        <article class="con10-art">
+                            <a href="#" class="con10-art-link">
+                                <img src="img/con10-img8.svg" alt="">
+                            </a>
+                        </article>
+                    </div>
+                    <div class="con10-slide swiper-slide">
+                        <article class="con10-art">
+                            <a href="#" class="con10-art-link">
+                                <img src="img/con10-img5.svg" alt="">
+                            </a>
+                        </article>
+                        <article class="con10-art">
+                            <a href="#" class="con10-art-link">
+                                <img src="img/con10-img6.svg" alt="">
+                            </a>
+                        </article>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- // 컨텐츠 10 -->
+        <!-- 푸터 -->
+        <footer class="footer">
+            <div class="ftr-top-wrap">
+                <div class="ftr-top-container">
+                    <h4 class="ftr-top-tit">
+                        고객센터
+                    </h4>
+                    <div class="ftr-top-desc">
+                        평일 09:00 - 18:30
+                        <br> 점심시간 12:00 - 13:00
+                        <br>주말, 공휴일 휴무
+                    </div>
+                    <address class="address">
+                        <div class="address-wrap">
+                            <span class="icon-adr">
+                                <img src="img/icon-mail.svg" alt="">
+                            </span>
+                            <a href="muji@lotte.net">
+                                muji@lotte.net
+                            </a>
+                        </div>
+                        <div class="address-wrap">
+                            <span class="icon-adr">
+                                <img src="img/icon-call.svg" alt="">
+                            </span>
+                            <a href="#">02-2943-3204</a>
+                        </div>
+                    </address>
+                </div>
+            </div>
+            <div class="ftr-bottom-wrap">
+                <div class="ftr-bottom-container">
+                    <ul class="ftr-menu">
+                        <li class="ftr-menu-list">
+                            <a class="ftr-menu-link" href="#">
+                                회사소개
+                            </a>
+                        </li>
+                        <li class="ftr-menu-list">
+                            <a class="ftr-menu-link" href="#">
+                                이용안내
+                            </a>
+                        </li>
+                        <li class="ftr-menu-list">
+                            <a class="ftr-menu-link" href="#">
+                                이용약관
+                            </a>
+                        </li>
+                        <li class="ftr-menu-list">
+                            <a class="ftr-menu-link" href="#">
+                                <strong>
+                                    개인정보처리방침
+                                </strong>
+                            </a>
+                        </li>
+                    </ul>
+                    <p class="co-info">
+                        롯데쇼핑 주식회사 (대표이사 : 강희태 )
+                        <br>사업자등록번호 261-88-07324
+                        <br>주소 : 서울특별시 송파구 올림픽대로 300,
+                        <br>롯데월드타워 26층
+                    </p>
+                    <div class="sns-wrap">
+                        <a href="#" class="sns-link">
+                            <img src="img/icon-insta.svg" alt="">
+                        </a>
+                        <a href="#" class="sns-link">
+                            <img src="img/icon-facebook.svg" alt="">
+                        </a>
+                        <a href="#" class="sns-link">
+                            <img src="img/icon-youtube.svg" alt="">
+                        </a>
+                    </div>
+                    <p class="copy">&copy; 2021 by MUJI_korea</p>
+                </div>
+            </div>
+        </footer>
+        <!-- // 푸터 -->
+    </div>
+    <!-- // 모바일 화면 -->
+    <!-- 제이쿼리 -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <!-- 스와이퍼 슬라이드 -->
+    <script src="js/swiper-bundle.min.js"></script>
+    <script>
+        function loadingPageOut() {
+            const loadingPage = document.querySelector('.loading-page');
+            loadingPage.classList.add('loading_page-none');
+        }
+        setTimeout(loadingPageOut, 2200);
+    </script>
+    <script>
+        var con1Swiper = new Swiper(".con1_swiper", {
+            slidesPerView: "auto",
+            spaceBetween: 12,
+            pagination: {
+                el: ".con1-pagination",
+                clickable: true,
+            },
+            autoplay: {
+                delay: 3000,
+            }
+        });
+        var con2Swiper = new Swiper(".con2-swiper", {
+            slidesPerView: "auto",
+            spaceBetween: 12,
+        });
+        var con4Swiper = new Swiper(".con4-swiper", {
+            slidesPerView: "auto",
+            spaceBetween: 12,
+        });
+        var con5Swiper = new Swiper(".con5-swiper", {
+            slidesPerView: "auto",
+            spaceBetween: 12,
+        });
+        var con6Swiper = new Swiper(".con6-swiper", {
+            slidesPerView: "auto",
+            spaceBetween: 12,
+        });
+        var con6Swiper = new Swiper(".con7-swiper", {
+            slidesPerView: "auto",
+            spaceBetween: 12,
+        });
+        var con8Swiper = new Swiper(".con8-swiper", {
+            slidesPerView: "auto",
+            spaceBetween: 12,
+        });
+        var con9Swiper = new Swiper(".con9-swiper", {
+            slidesPerView: "auto",
+            spaceBetween: 12,
+        });
+        var con10Swiper = new Swiper(".con10-swiper", {
+            slidesPerView: "auto",
+            spaceBetween: 12,
+        });
+    </script>
+</body>
+
+</html>

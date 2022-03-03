@@ -1,0 +1,262 @@
+.gnb {
+  position: relative;
+  margin-top: 4.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  height: 6rem;
+}
+
+.gnb .prev-btn {
+  width: 2.8rem;
+  height: 2.8rem;
+}
+
+.gnb .page-tit {
+  margin-left: 0.5rem;
+  font-size: 2rem;
+  font-weight: 500;
+}
+.page-txt {
+  margin-top: 5rem;
+  font-size: 2.8rem;
+  line-height: 3.8rem;
+  font-weight: 700;
+}
+.gnb .user_img-wrap {
+  position: absolute;
+  right: 2.4rem;
+  display: block;
+  width: 4rem;
+}
+/* 섹션 01 */
+.con1-wrap {
+  margin-top: 1.2rem;
+}
+.con1-wrap .con1-tit {
+  font-size: 1.2rem;
+  line-height: 1.5rem;
+}
+.con1-wrap .muji-mile {
+  margin-top: 0.25rem;
+  font-size: 4rem;
+  font-weight: 700;
+}
+.con1-wrap .muji-mile .point {
+  font-size: 1.9rem;
+  color: #767676;
+  font-weight: 400;
+}
+.con1-wrap .point_bar-wrap {
+  margin-top: 2rem;
+  position: relative;
+  width: 32.7rem;
+  height: 0.5rem;
+  background-color: #f1f1f5;
+}
+.con1-wrap .point_bar-wrap .point-hi {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 75%;
+  height: 100%;
+  background-color: #7f0219;
+}
+.con1-wrap .point-desc {
+  margin-top: 0.6rem;
+  font-size: 1.2rem;
+  line-height: 1.6rem;
+  color: #767676;
+  font-weight: 300;
+}
+.con1-wrap .point-desc strong {
+  margin-left: 0.2rem;
+  color: #191919;
+}
+/* // 섹션 01 */
+
+/* 섹션02 */
+.con2-wrap {
+}
+.con2-wrap .con2-link {
+  position: relative;
+  box-sizing: border-box;
+  padding: 1.6rem;
+  display: flex;
+  align-items: center;
+  width: 32.7rem;
+  background-color: #fff;
+  box-shadow: 0.5rem 0.5rem 1rem rgba(0, 0, 0, 0.08);
+}
+.con2-wrap .con2-link .con2-icon {
+  width: 2.8rem;
+  height: 2.8rem;
+}
+.con2-wrap .con2-link .con2-tit {
+  margin-left: 1.2rem;
+  font-size: 1.6rem;
+  font-weight: 700;
+}
+.con2-wrap .con2-link .con2-desc {
+  position: absolute;
+  right: 1.6rem;
+  font-size: 1.2rem;
+  font-weight: 300;
+  color: #767676;
+}
+
+/* // 섹션02 */
+
+/* 섹션 03 */
+.con3-wrap {
+  padding-top: 0;
+  margin-top: 1.8rem;
+}
+.con3-wrap::before {
+  display: none;
+}
+.con3-wrap .barcode-wrap {
+  position: relative;
+  width: 100%;
+  padding: 1.4rem 1.4rem;
+  background-color: #f5f5f5;
+}
+.con3-wrap .barcode-wrap .barcode_img {
+  width: 29.9rem;
+}
+.con3-wrap .barcode-wrap .bar_code-num {
+  margin-top: 0.9rem;
+  font-size: 1.4rem;
+  font-weight: 400;
+  line-height: 1.7rem;
+  text-align: center;
+}
+.con3-wrap .barcode-wrap .zoom_btn {
+  position: absolute;
+  bottom: 1rem;
+  right: 1.3rem;
+  width: 2rem;
+  height: 2rem;
+  border-radius: 50%;
+  background-color: #ffffff;
+  background: url("../img/icon-zoom.svg") center center;
+  background-size: cover;
+}
+/* // 섹션 03 */
+
+/* 섹션 04 */
+.con4-wrap {
+  padding-top: 0;
+  margin-top: 2.1rem;
+}
+.con4-wrap::before {
+  display: none;
+}
+.con4-wrap .con4-container {
+  display: flex;
+  justify-content: space-between;
+}
+.con4-wrap .con4-container .con4-art {
+  width: calc(100% / 4);
+  text-align: center;
+}
+.con4-wrap .con4-container .con4-art .menu_num {
+  font-size: 1.8rem;
+  font-weight: 700;
+  line-height: 2.5rem;
+}
+.con4-wrap .con4-container .con4-art .menu-tit {
+  margin-top: 0.2rem;
+  font-size: 1.4rem;
+  font-weight: 300;
+  line-height: 2rem;
+}
+/* // 섹션 04 */
+
+/* 섹션 05 */
+.mypage-con5-wrap {
+  background-color: #f1f1f5;
+  padding-bottom: 2rem;
+}
+.mypage-con5-wrap .con-tit_wrap {
+  padding-top: 2rem;
+}
+.mypage-con5-wrap .con-tit_wrap .con_tit_link {
+  font-size: 1.2rem;
+  line-height: 1.5rem;
+  font-weight: 400;
+  color: #656565;
+}
+.mypage-con5-art-wrap {
+  margin-top: 1.6rem;
+  background-color: #fff;
+  padding: 0 1.6rem;
+}
+.mypage-con5-art-wrap .mypage-con5-art {
+  position: relative;
+  padding: 1.2rem 0;
+  border-bottom: 0.1rem solid #ececec;
+}
+.mypage-con5-art-wrap .mypage-con5-art:last-child {
+  border-bottom: none;
+}
+.mypage-con5-art-wrap .mypage-con5-art .con5-art-date {
+  font-size: 1.1rem;
+  line-height: 1.5rem;
+  font-weight: 400;
+  color: #999;
+}
+.mypage-con5-art-wrap .mypage-con5-art .con5-art-container {
+  display: flex;
+  align-items: center;
+  margin-top: 0.5rem;
+}
+.mypage-con5-art-wrap .mypage-con5-art .con5-art-img {
+  width: 5.1rem;
+  height: 5.1rem;
+}
+.mypage-con5-art-wrap .con5-art-txt {
+  margin-left: 0.9rem;
+}
+.mypage-con5-art-wrap .con5-art-txt .con5-art-tit {
+  font-size: 1.3rem;
+  line-height: 2rem;
+  font-weight: 400;
+}
+.mypage-con5-art-wrap .con5-art-txt .con5-art-desc {
+  margin-top: 0.3rem;
+  font-size: 1.1rem;
+  line-height: 1.5rem;
+  font-weight: 400;
+  color: #4ad697;
+}
+.mypage-con5-art-wrap .con5-art-txt .txt-red {
+  color: #d01818;
+}
+.icon-arrow {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  right: 0;
+  width: 2.8rem;
+  height: 2.8rem;
+  background: url("../img/icon-arrow_gray.svg") center center;
+  background-size: cover;
+}
+/* // 섹션 05 */
+
+/* 섹션 06 */
+.mypage-con6-wrap {
+  padding: 0;
+}
+.mypage-con6-wrap .mypage-con6-link {
+  width: 100%;
+  height: 6rem;
+  background: url("../img/banner.svg") center center;
+  background-size: cover;
+}
+/* // 섹션 06 */
+/* 푸터 */
+.footer {
+  margin-top: 0;
+}
