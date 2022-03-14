@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="56" height="56" viewBox="0 0 56 56">
+  <g id="icon_basket_gray" transform="translate(-1652 104)">
+    <rect id="사각형_24132" data-name="사각형 24132" width="56" height="56" transform="translate(1652 -104)" fill="none" opacity="0.701"/>
+    <rect id="사각형_24131" data-name="사각형 24131" width="40" height="40" transform="translate(1660 -96)" fill="none" opacity="0.701"/>
+    <g id="icon-basket_gray" transform="translate(1663.665 -84.612)">
+      <rect id="사각형_24055" data-name="사각형 24055" width="29.316" height="22.144" transform="translate(1.677 1.676)" fill="#fff"/>
+      <path id="패스_7742" data-name="패스 7742" d="M126.67,285.735v18.791H100.706V285.735H126.67m3.353-3.353H97.353v25.5h32.669v-25.5Z" transform="translate(-97.353 -282.382)" fill="#767676"/>
+      <path id="패스_7743" data-name="패스 7743" d="M119.238,276.513h-6.824a1.851,1.851,0,0,0-1.849,1.849v7.989h10.522v-7.989A1.85,1.85,0,0,0,119.238,276.513Z" transform="translate(-99.492 -281.432)" fill="none"/>
+      <path id="패스_7744" data-name="패스 7744" d="M109.918,277.715a1.851,1.851,0,0,1,1.849-1.849h6.824a1.85,1.85,0,0,1,1.849,1.849V285.7h3.353v-7.989a5.2,5.2,0,0,0-5.2-5.2h-6.824a5.2,5.2,0,0,0-5.2,5.2V285.7h3.353Z" transform="translate(-98.844 -280.785)" fill="#767676"/>
+      <rect id="사각형_24056" data-name="사각형 24056" width="3.353" height="3.353" transform="translate(7.721 4.919)" fill="#767676"/>
+      <rect id="사각형_24057" data-name="사각형 24057" width="3.353" height="3.353" transform="translate(21.596 4.919)" fill="#767676"/>
+    </g>
+  </g>
+</svg>
